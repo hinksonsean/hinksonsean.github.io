@@ -1,0 +1,23 @@
+/* Style Guide 
+  * Primary Color: grey
+  * Secondary Color: green
+*/
+h1 {
+  color: grey;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  letter-spacing: 5px;
+  text-align: center;
+  
+}
+
+p {
+  color: green;
+}
+/* Typography
+  * Primary Font: font-family: 'Open Sans', sans-serif;
+*/
+
+img {
+  width: 100px;
+}
