@@ -2,6 +2,9 @@
   * Primary Color: grey
   * Secondary Color: green
 */
+body {
+  background: chartreuse
+}
 h1 {
   color: grey;
   font-family: 'Open Sans', sans-serif;
