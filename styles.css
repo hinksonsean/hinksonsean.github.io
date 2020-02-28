@@ -2,6 +2,17 @@
   * Primary Color: grey
   * Secondary Color: green
 */
+
+
+
+
+html {
+  background: lightgrey
+}
+
+
+
+
 main { 
   margin: 0 auto;
   width: 90%;
