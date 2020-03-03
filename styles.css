@@ -2,6 +2,17 @@
   * Primary Color: grey
   * Secondary Color: green
 */
+
+
+
+
+html {
+  background: lightgrey
+}
+
+
+
+
 main { 
   margin: 0 auto;
   width: 90%;
@@ -10,8 +21,16 @@ main {
   grid-template-columns: 1fr;
 }
 
-main img {
+h1 {
+  color: lightgrey;
+  background: black;
+  display: flex;
+  justify-content: center;
 
+}
+
+
+main img {  
   grid-column: 1 / 1;
 }
 
@@ -53,6 +72,12 @@ main img {
        content: "Desktop Size";
   }
 
+}
+
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 /* Wide Desktop: 
