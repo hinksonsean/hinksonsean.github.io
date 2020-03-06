@@ -4,7 +4,10 @@
 */
 
 
-
+html {
+  background: lightgrey;
+  
+}
 
 
 
@@ -14,24 +17,33 @@
 
 div {
   outline: 1px dotted black;
-  
-  
+
   
   background-image: url("https://raw.githubusercontent.com/hinksonsean/hinksonsean.github.io/master/img/BackgroundForWebsite.jpg"); 
   background-position: 0 0;
-  width: 435px;
+  width: 267px;
   height: 267px;
   
   
-  animation: sprite 3s steps(45) infinite; 
+  animation: sprite 25s steps(45) infinite; 
 }
 
 
 @keyframes sprite {
   
   0% { background-position: 0 0%; }
+
+  50% {background-position: 0 100%;}
  
-  100% { background-position: 0 100%; }
+  100% { background-position: 0 0%; }
+  
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 2;
   
 }
 
