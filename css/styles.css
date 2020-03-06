@@ -11,6 +11,86 @@ html {
 }
 
 
+h1 {
+  color: black;
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+h1 {
+  animation: fadeIn 5s;
+ 
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+    scale: 0;
+
+  }
+
+  50% {
+    scale: 60;
+  }
+
+  100% {
+    opacity: 100;
+    scale: 4;
+  }
+}
+
+p {
+  margin: 50px
+
+}
+p {
+
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+    scale: 0;
+
+  }
+
+  50% {
+    scale: 60;
+  }
+
+  100% {
+    opacity: 100;
+    scale: 4;
+  }
+}
+
+
+
+section {
+  background: lightblue;
+  height: 19px;
+  overflow: hidden;
+
+  transition: height .5s ease-in-out
+  
+}
+
+.accordion {
+  height: 900px;
+}
+
+#trigger {
+  background: aquamarine;
+  margin: 0;
+}
+
+
+
 
 
 main { 
@@ -21,13 +101,7 @@ main {
   grid-template-columns: 1fr;
 }
 
-h1 {
-  color: lightgrey;
-  background: black;
-  display: flex;
-  justify-content: center;
 
-}
 
 
 main img {  
