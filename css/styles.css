@@ -32,8 +32,9 @@ div {
   
   background-image: url("https://raw.githubusercontent.com/hinksonsean/hinksonsean.github.io/master/img/BackgroundImageWebsite.jpg"); 
   background-position: 0 0;
-  width: 700px;
-  height: 300px;
+  width: 80%;
+  height: 247px;
+  
   
   
   animation: sprite 20s steps(45) infinite; 
