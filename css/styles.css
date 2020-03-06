@@ -6,7 +6,7 @@
 
 html {
   background: lightgrey;
-  
+
 }
 
 
@@ -16,16 +16,27 @@ html {
 
 
 div {
-  outline: 1px dotted black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+ 
+ 
+  outline: 1px;
+
+  transform: scale(1);
+  filter:grayscale(.5);
 
   
-  background-image: url("https://raw.githubusercontent.com/hinksonsean/hinksonsean.github.io/master/img/BackgroundForWebsite.jpg"); 
+  background-image: url("https://raw.githubusercontent.com/hinksonsean/hinksonsean.github.io/master/img/BackgroundImageWebsite.jpg"); 
   background-position: 0 0;
-  width: 267px;
-  height: 267px;
+  width: 700px;
+  height: 300px;
   
   
-  animation: sprite 25s steps(45) infinite; 
+  animation: sprite 20s steps(45) infinite; 
 }
 
 
@@ -46,6 +57,14 @@ h2 {
   scale: 2;
   
 }
+
+h3 {
+  background: white;
+  
+  
+}
+
+
 
 
 
