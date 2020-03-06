@@ -76,7 +76,7 @@ p {
 }
 p {
 
-  animation: fadeIn 5s;
+  animation: fadeIn 1s;
 }
 
 @keyframes fadeIn {
@@ -88,7 +88,7 @@ p {
   }
 
   50% {
-    scale: 2;
+    scale: 1.1;
   }
 
   100% {
