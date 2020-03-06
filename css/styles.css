@@ -74,28 +74,7 @@ p {
   margin: 50px
 
 }
-p {
 
-  animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-
-  0% {
-    opacity: 0;
-    scale: 0;
-
-  }
-
-  50% {
-    scale: 1.1;
-  }
-
-  100% {
-    opacity: 100;
-    scale: 1;
-  }
-}
 
 
 
