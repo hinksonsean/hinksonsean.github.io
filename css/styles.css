@@ -61,12 +61,12 @@ h1 {
   }
 
   50% {
-    scale: 60;
+    scale: 2;
   }
 
   100% {
     opacity: 100;
-    scale: 4;
+    scale: 1;
   }
 }
 
