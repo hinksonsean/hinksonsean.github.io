@@ -2,27 +2,84 @@
   * Primary Color: grey
   * Secondary Color: green
 */
-
-
 html {
-  background: lightgrey;
-
+  scroll-behavior: smooth;
 }
+
+
+
+.section a {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+
+
+body {
+  background: lightgrey;
+}
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+}
+
+
+
+.bob {
+  font-size: xx-large;
+  background: grey;
+}
+
+.cover {
+  font-size: xx-large;
+  background: grey;
+}
+
+.packaging {
+  font-size: xx-large;
+  background: grey;
+  
+}
+
+.architecture {
+  font-size: xx-large;
+  background: grey;
+  
+}
+
+
 
 p {
   display: flex;
   justify-content: center;
-  
-  
-  
-  margin: 100px;
+  align-items: center;
+
+
+}
+
+
+.descrp {
+  width: 600px;
+
+  margin: auto;
+  padding-top: 30px;
+  background: #C0C0C0;
+  padding-bottom: 30px;
 }
 
 
 
 
 
-div {
+.bg {
 
   display: flex;
   justify-content: center;
@@ -112,28 +169,13 @@ h1 {
 p {
   margin: 50px
 
+
+
 }
 
 
 
 
-section {
-  background: lightblue;
-  height: 19px;
-  overflow: hidden;
-
-  transition: height .5s ease-in-out
-  
-}
-
-.accordion {
-  height: 900px;
-}
-
-#trigger {
-  background: aquamarine;
-  margin: 0;
-}
 
 
 
@@ -152,6 +194,7 @@ main {
 
 main img {  
   grid-column: 1 / 1;
+
 }
 
 
@@ -196,7 +239,9 @@ main img {
 
 
 .responsive {
-  width: 100%;
+
+
+  width: 60%;
   height: auto;
 }
 
@@ -207,8 +252,10 @@ main img {
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
+    
        background: yellow;
        content: "Wide Desktop Size";
   }
+
 
 }
