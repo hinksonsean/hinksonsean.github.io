@@ -1,261 +1,48 @@
-/* Style Guide 
-  * Primary Color: grey
-  * Secondary Color: green
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+  * Remove when done
 */
-html {
-  scroll-behavior: smooth;
+
+* {
+  outline: 1px dotted black;
 }
 
-
-
-.section a {
-  background-color: white;
-  border-radius: 10px;
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-  
+/******************************
+Main Container/Wrapper
+******************************/
+main {
+margin: 0 auto;
+padding: 1em;
 }
 
-
-
-body {
-  background: lightgrey;
+/******************************
+Biography
+******************************/
+.bio {
+text-align: center;
 }
 
-
-  img {
-    max-width: 100%;
-    height: auto;
-    display: table;
-    margin: 0 auto;
-}
-
-
-
-.bob {
-  font-size: xx-large;
-  background: grey;
-}
-
-.cover {
-  font-size: xx-large;
-  background: grey;
-}
-
-.packaging {
-  font-size: xx-large;
-  background: grey;
-  
-}
-
-.architecture {
-  font-size: xx-large;
-  background: grey;
-  
-}
-
-
-
-p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+#rando-image {
 
 }
 
+/******************************
+Flickity Styling
+******************************/
+/* Style carousel container */
+.carousel {
+background: gray;
+}
 
-.descrp {
-  width: 600px;
-
-  margin: auto;
-  padding-top: 30px;
-  background: #C0C0C0;
-  padding-bottom: 30px;
+/* Style individual carousel-cell content */
+.carousel .cell {
+background: gray;
+width: 100%;
 }
 
 
 
 
-
-.bg {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  
- 
- 
-  outline: 1px;
-
-  transform: scale(1);
-  filter:grayscale(.5);
-
-  
-  background-image: url("https://raw.githubusercontent.com/hinksonsean/hinksonsean.github.io/master/img/BackgroundImageWebsite.jpg"); 
-  background-position: 0 0;
-  width: 50%;
-  height: 100px;
-  
-  
-  
-  animation: sprite 20s steps(45) infinite; 
-}
-
-
-@keyframes sprite {
-  
-  0% { background-position: 0 0%; }
-
-  50% {background-position: 0 100%;}
- 
-  100% { background-position: 0 0%; }
-  
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  scale: 2;
-  
-}
-
-h3 {
-  background: white;
-  
-  
-}
-
-
-
-
-
-
-
-h1 {
-  color: black;
-  
-  display: flex;
-  justify-content: center;
-
-}
-
-h1 {
-  animation: fadeIn 1s;
- 
-}
-
-@keyframes fadeIn {
-
-  0% {
-    opacity: 0;
-    scale: .5;
-
-  }
-
-  50% {
-    scale: 1.1;
-  }
-
-  100% {
-    opacity: 100;
-    scale: 1;
-  }
-}
-
-p {
-  margin: 50px
-
-
-
-}
-
-
-
-
-
-
-
-
-
-main { 
-  margin: 0 auto;
-  width: 90%;
-    
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-
-
-
-main img {  
-  grid-column: 1 / 1;
-
-}
-
-
-/* Mobile 
-  0 to 26em (416 pixels)
-*/
-@media only screen and (min-width: 0) { 
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Mobile Size";
-  }
-  
-}
-
-/* Tablet 
-  26em (416 pixels) to 72em (1,152 pixels)
-*/
-@media only screen and (min-width: 26em)  {
-    
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Tablet Size";
-  }
-
-}
-
-/* Desktop 
-   72em (1,152 pixels) to 90em (1440 pixels)
-*/
-@media screen and (min-width: 72em)  { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-       background: yellow;
-       content: "Desktop Size";
-  }
-
-}
-
-
-.responsive {
-
-
-  width: 60%;
-  height: auto;
-}
-
-/* Wide Desktop: 
-  Greater than 90em (1440px)
-*/
-@media screen and (min-width: 90em) { 
-  
-  /* Diagnostic Styling. Delete When Done. */
-  body:before {
-    
-       background: yellow;
-       content: "Wide Desktop Size";
-  }
-
-
-}
