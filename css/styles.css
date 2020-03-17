@@ -5,20 +5,36 @@
   * Outline Elements
   * Remove when done
 */
-.responsive {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
 
+body {
+  background: black;
 }
 
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
 
 /******************************
 Main Container/Wrapper
 ******************************/
+
+
 main {
 margin: 0 auto;
 padding: 1em;
+}
+
+div {
+
 }
 
 /******************************
@@ -34,16 +50,29 @@ text-align: center;
 Flickity Styling
 ******************************/
 /* Style carousel container */
+h3 {
+  color: whitesmoke;
+}
+
+
 .carousel {
-background: gray;
+background: #3D0C02;
 }
 
 /* Style individual carousel-cell content */
 .carousel .cell {
-background: gray;
+background: #3D0C02;
 width: 100%;
 }
 
 
+
+/* contact styling  */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
