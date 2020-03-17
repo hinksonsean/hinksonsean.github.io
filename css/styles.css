@@ -5,10 +5,11 @@
   * Outline Elements
   * Remove when done
 */
-
-* {
-  outline: 1px dotted black;
+.responsive {
+  width: 100%;
+  height: auto;
 }
+
 
 /******************************
 Main Container/Wrapper
