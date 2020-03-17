@@ -7,7 +7,9 @@
 */
 .responsive {
   width: 100%;
+  max-width: 400px;
   height: auto;
+
 }
 
 
@@ -26,10 +28,7 @@ Biography
 text-align: center;
 }
 
-#rando-image {
-  
 
-}
 
 /******************************
 Flickity Styling
