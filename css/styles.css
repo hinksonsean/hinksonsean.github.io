@@ -33,9 +33,7 @@ margin: 0 auto;
 padding: 1em;
 }
 
-div {
 
-}
 
 /******************************
 Biography
@@ -76,3 +74,19 @@ footer {
 }
 
 
+/* 404 styling */
+
+
+#failpage {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
